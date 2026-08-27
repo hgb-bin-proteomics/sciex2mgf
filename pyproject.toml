@@ -28,6 +28,8 @@ classifiers = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "pyteomics[xml]>=5.0.1",
+    "tqdm>=4.70.0",
 ]
 
 [dependency-groups]
