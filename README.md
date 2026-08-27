@@ -13,6 +13,8 @@ type checked with [ty](https://docs.astral.sh/ty/) and [pyright](https://microso
 and tested with [pytest](https://docs.pytest.org/en/stable/) using
 [GitHub Actions](https://docs.github.com/en/actions).
 
+Download the "MS Data Converter" (under "Additional downloads" / "Converters") from https://sciex.com/support/software-support/software-downloads
+
 ## Checklist
 
 - [ ] Replace `YOURUSERNAME` and `IMAGENAME` in `.github/workflows/docker-image.yml` [or delete file].
