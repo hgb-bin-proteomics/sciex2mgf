@@ -3,7 +3,7 @@ requires = ["uv_build>=0.12.5,<0.13.0"]
 build-backend = "uv_build"
 
 [project]
-name = "python-pkg-template"
+name = "sciex2mgf"
 version = "0.1.0"
 description = "Add your description here"
 keywords = ["example", "template"]
@@ -28,13 +28,10 @@ classifiers = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "polars>=1.41.2",
-    "pydantic>=2.13.4",
 ]
 
 [dependency-groups]
 dev = [
-    "pyright>=1.1.411",
     "pytest>=9.1.1",
     "ruff>=0.16.4",
     "ty>=0.0.73",
@@ -47,7 +44,7 @@ docs = [
 ]
 
 [project.scripts]
-battle = "python_pkg_template:main"
+battle = "sciex:main"
 
 [project.urls]
 Homepage = "https://github.com/michabirklbauer/python-pkg_template"
